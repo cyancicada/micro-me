@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+//protoc --proto_path=. --micro_out=. --go_out=. hello.proto
+service Greeter {
+    rpc Hello(Request) returns (Response) {}
+}
+
+message Request {
+    string name = 1;
+}
+
+message Response {
+    string msg = 1;
+}
