@@ -7,10 +7,15 @@ require (
 	github.com/StackExchange/wmi v0.0.0-20181212234831-e0a55b97c705 // indirect
 	github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5
 	github.com/coredns/coredns v1.4.0 // indirect
-	github.com/envoyproxy/go-control-plane v0.6.9 // indirect
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/gin-contrib/sse v0.1.0 // indirect
+	github.com/gin-gonic/gin v1.4.0
 	github.com/go-ole/go-ole v1.2.4 // indirect
-	github.com/golang/protobuf v1.3.1
-	github.com/hashicorp/consul v1.5.1 // indirect
+	github.com/go-sql-driver/mysql v1.4.1
+	github.com/go-xorm/xorm v0.7.4
+	github.com/golang/protobuf v1.3.2
+	github.com/gorilla/websocket v1.4.0
+	github.com/hashicorp/consul v1.5.2 // indirect
 	github.com/hashicorp/go-gcp-common v0.5.0 // indirect
 	github.com/hashicorp/go-memdb v1.0.0 // indirect
 	github.com/hashicorp/go-plugin v1.0.0 // indirect
@@ -31,12 +36,16 @@ require (
 	github.com/lyft/protoc-gen-validate v0.0.14 // indirect
 	github.com/micro/go-micro v1.5.0
 	github.com/micro/go-plugins v1.1.0
-	github.com/micro/micro v1.5.0 // indirect
 	github.com/nats-io/nats-server/v2 v2.0.0 // indirect
+	github.com/satori/go.uuid v1.2.0
 	github.com/shirou/gopsutil v2.18.12+incompatible // indirect
-	github.com/ugorji/go/codec v0.0.0-20190320090025-2dc34c0b8780 // indirect
+	github.com/sourcegraph/go-diff v0.5.1 // indirect
+	github.com/ugorji/go v1.1.7 // indirect
 	go.etcd.io/bbolt v1.3.2 // indirect
-	golang.org/x/crypto v0.0.0-20190605123033-f99c8df09eb5 // indirect
+	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4 // indirect
+	golang.org/x/net v0.0.0-20190628185345-da137c7871d7 // indirect
+	golang.org/x/sys v0.0.0-20190712062909-fae7ac547cb7 // indirect
+	gopkg.in/go-playground/validator.v8 v8.18.2
 	layeh.com/radius v0.0.0-20190322222518-890bc1058917 // indirect
 )
 

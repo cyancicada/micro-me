@@ -1,0 +1,34 @@
+{
+  "Version": "0.0.1",
+  "Topic": "im_message_exchange",
+  "Server": {
+    "Name": "im.rpc.server"
+  },
+  "Etcd": {
+    "Address": [
+      "192.168.5.100:2379"
+    ],
+    "UserName": "",
+    "Password": ""
+  },
+  "Engine": {
+    "Name": "mysql",
+    "DataSource": "root:123456@tcp(192.168.5.100:3306)/gateway?charset=utf8"
+  },
+  "ImServerList": [
+    {
+      "AmqbAddress": [
+        "amqp://guest:guest@192.168.5.100:5672/"
+      ],
+      "Topic": "im.server.1",
+      "ServerName": "im.server.1"
+    },
+    {
+      "AmqbAddress": [
+        "amqp://guest:guest@192.168.5.100:5672/"
+      ],
+      "Topic": "im.server.2",
+      "ServerName": "im.server.2"
+    }
+  ]
+}

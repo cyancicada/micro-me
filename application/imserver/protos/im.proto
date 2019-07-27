@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+//protoc --proto_path=. --micro_out=. --go_out=. im.proto
+service Im {
+    rpc PublishMessage (PublishMessageRequest) returns (PublishMessageResponse) {
+    }
+}
+
+message PublishMessageRequest {
+    string fromToken = 1;
+    string toToken = 2;
+    string body = 3;
+    string serverName = 4;
+    string topic = 5;
+    string address = 6;
+}
+
+message PublishMessageResponse {
+}

@@ -68,7 +68,7 @@ func main() {
 		func(options *registry.Options) {
 			options.Addrs = conf.Etcd.Addrs
 			//etcdv3.Auth("root","1234")(options)
-		})
+		});
 	md := map[string]string{
 		"vector": "yang",
 	}
